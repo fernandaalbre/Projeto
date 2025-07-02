@@ -34,7 +34,7 @@ export default function Home(){
     return (
         <div className="container-home">
             <div className="logo">
-                <img src="/haha.png" olt="Aprendendo..." />
+                <img src={`${process.env.PUBLIC_URL}/haha.png`} olt="Aprendendo..." />
                 <h1>Aprende Porra</h1>
                 <span>Cole seu link para encurtar 👇</span>
             </div>
